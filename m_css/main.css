@@ -1,0 +1,117 @@
+@charset "utf-8";
+main .slide{
+    height:60vh;/* vertical height */
+    overflow:hidden;
+    position:relative;
+}
+main .slide >h2{display:none;}
+.swiper-slide{
+    position: relative;
+}
+.swiper-slide > h2{
+    position:absolute;
+    color:#ffffff;
+    background-color:rgba(0,0,0,.8);
+    font-size: 20px;
+    font-weight:500;
+    width:230px;
+    text-align: center;
+    padding: 6px 10px;
+    line-height: 30px;
+    left:50%;top:26%;
+    transform:translate(-50%,-50%);
+    border-radius: 40px;
+}
+.con h2{
+    display:none;
+}
+.con nav{
+    width:90%;
+    margin:20px auto;
+    text-align:center;
+}
+.con nav>ul{
+    text-align:center;
+}
+.con  nav >ul >li{
+    border:1px solid #ccc;
+    width:28%;
+    display:inline-block;
+    margin-bottom:4px;
+}
+.icon{
+    display:inline-block;
+}
+.mnu{
+    display:block;
+    padding:8px 0px;
+    font-size:1rem; /* 1rem = 16px */
+    font-weight:500;
+}
+.con  nav > ul> li .icon{
+    background-image:url('../images/nav_icon.png');
+    width:83px; height: 66px;
+    background-size:360px;
+    background-repeat: no-repeat;
+}
+.con  nav > ul> li:nth-child(2) .icon{
+    background-position:-82px 0px;
+}
+.con  nav > ul> li:nth-child(3) .icon{
+    background-position:-167px 0px;
+}
+.con  nav > ul> li:nth-child(4) .icon{
+    background-position:-220px 4px;
+    background-size:315px;
+}
+.con  nav > ul> li:nth-child(5) .icon{
+    background-position:10px -64px;
+}
+.con  nav > ul> li:last-child .icon{
+    background-position:-70px -66px;
+}
+
+.map_btn {
+    display:inline-block;
+    width:87%;
+    height:30px;
+    margin-bottom:-10px;
+    line-height:30px;
+    font-weight:500;
+    border:1px solid #cccccc;
+}
+.map_btn > .icon {
+    background-image: url(../images/nav_icon.png);
+    display: inline-block;
+    width: 30px; height:24px;
+    background-size: 270px;
+    background-position: -118px -48px;
+    padding-right:5px;
+}
+section > article:last-of-type{
+    height:50px;
+    width: 80%;
+    margin:10px auto;
+    color:#ffffff;
+    background-image:url(../images/info_back.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align:center;
+}
+span.fa-phone{ /* 아이콘 폰트 클래스명 */
+    padding-right:5px;
+    font-size:24px;
+    display:inline-block;
+    transform:translateY(-5px);
+}
+.tel {
+    line-height:13px;
+    padding-top: 10px;
+    display:inline-block;
+}
+.tel > a {
+    color: #ffffff;
+    font-weight:500;
+    font-size:14px;
+}
+
